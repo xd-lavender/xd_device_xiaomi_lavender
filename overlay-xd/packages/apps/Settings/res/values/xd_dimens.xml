@@ -20,6 +20,6 @@
     <dimen name="xd_about_phone_ill_height">265dp</dimen>
     <dimen name="xd_about_phone_ill_width">120dp</dimen>
     
-    <dimen name="xd_pref_card_radius">32dp</dimen>
+    <dimen name="xd_pref_card_radius">28dp</dimen>
 
 </resources>
