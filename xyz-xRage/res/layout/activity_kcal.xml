@@ -4,19 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
-        style="@style/xd_pref_card_sin"
+    <ImageView
+        android:id="@+id/preview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        
-        <ImageView
-            android:id="@+id/preview"
-            android:layout_width="match_parent"
-            android:layout_height="160dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/preview" />
-    
-    </LinearLayout>
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/preview" />
 
     <LinearLayout
         android:id="@+id/fragment_kcal"
