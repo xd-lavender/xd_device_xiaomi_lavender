@@ -321,10 +321,11 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-     android.hardware.power-service.xiaomi-libperfmgr
+    xyz_xyzuan.android.hardware.power@1.3-service.xiaomi_lavender-libperfmgr \
+    android.hardware.power.stats@1.0-service.mock
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    $(LOCAL_PATH)/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Protobuf
 PRODUCT_PACKAGES += \
