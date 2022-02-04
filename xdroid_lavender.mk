@@ -43,10 +43,10 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="redfin-user 12 SPB5.210812.002 7671067 release-keys"
+    PRIVATE_BUILD_DESC="raven-user 12 SQ1D.220105.007 8030436 release-keys"
 
 # Build Fingerprint
-BUILD_FINGERPRINT := "google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys"
 
 # Device identifier
 PRODUCT_NAME := xdroid_lavender
